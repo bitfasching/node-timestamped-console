@@ -1,0 +1,21 @@
+{
+    "name": "timestamped-console",
+    "version": "0.1.0",
+    "description": "Returns a new console class adding a timestamp to the beginning of each line.",
+    "author": "Nick Schwarzenberg <nick@bitfasching.de>",
+    "license": "MIT",
+    "main": "./timestamped-console.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bitfasching/node-timestamped-console"
+    },
+    "dependencies": {
+        "line-transform-stream": "~0.1.0",
+        "dateformat": "~2.0.0"
+    },
+    "keywords": [
+        "console", "log", "timestamp", "date", "time", "stream"
+    ],
+    "preferGlobal": false,
+    "private": false
+}
